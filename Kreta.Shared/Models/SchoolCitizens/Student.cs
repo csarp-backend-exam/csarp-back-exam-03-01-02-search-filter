@@ -34,7 +34,7 @@
 
         public override string ToString()
         {
-            return $"{LastName} {FirstName} ({SchoolYear}.{SchoolClass}), Szül: ({String.Format("{0:yyyy.MM.dd.}", BirthsDay)}), Tanulmányi szint: ({EducationLevel})";
+            return $"{LastName} {FirstName} ({SchoolYear}.{SchoolClass}";
         }
     }
 }
